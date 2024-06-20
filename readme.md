@@ -34,9 +34,10 @@ Ensure you have Node.js and npm installed.
     npm run dev
    ```
 4. Build and run the server in production mode:
-   `sh
+   ```sh
     Copy code
     npm run build
     npm start
-    `
-   The server will start at http://localhost:3000.
+   ```
+
+## The server will start at http://localhost:3000.
