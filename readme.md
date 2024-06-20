@@ -4,12 +4,12 @@ This is a simple Express server built with TypeScript that handles form submissi
 
 ## Endpoints
 
-- **GET /ping**: Always returns `{ success: true }`
-- **POST /submit**: Accepts `name`, `email`, `phone`, `github_link`, and `stopwatch_time` in the request body and stores the submission.
-- **GET /read?index=<number>**: Retrieves the (index+1)th submission from the JSON file.
-- **PUT /edit/:email**: Updates the submission identified by `email` with the provided fields (`name`, `phone`, `github_link`, `stopwatch_time`).
-- **DELETE /delete/:email**: Deletes the submission identified by `email`.
-- **GET /search?email=<email>**: Searches for submissions matching the provided `email`.
+- **GET: `/ping`**: Always returns `{ success: true }`
+- **POST: `/submit`**: Accepts `name`, `email`, `phone`, `github_link`, and `stopwatch_time` in the request body and stores the submission.
+- **GET: `/read?index=<number>`**: Retrieves the (index+1)th submission from the JSON file.
+- **PUT: `/edit/:email`**: Updates the submission identified by `email` with the provided fields (`name`, `phone`, `github_link`, `stopwatch_time`).
+- **DELETE: `/delete/:email`**: Deletes the submission identified by `email`.
+- **GET: `/search?email=<email>`**: Searches for submissions matching the provided `email`.
 
 ## Running the Server
 
