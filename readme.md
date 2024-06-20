@@ -21,7 +21,7 @@ Ensure you have npm installed.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/my-express-typescript-app.git
+   git clone https://github.com/UtsavUpadhyay08/Backend.git
    cd my-express-typescript-app
    ```
 2. Install dependencies:
@@ -38,4 +38,4 @@ Ensure you have npm installed.
     npm start
    ```
 
-## The server will start at http://localhost:3000.
+The server will start at http://localhost:3000.
