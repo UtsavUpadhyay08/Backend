@@ -15,7 +15,7 @@ This is a simple Express server built with TypeScript that handles form submissi
 
 ### Prerequisites
 
-Ensure you have Node.js and npm installed.
+Ensure you have npm installed.
 
 ### Installation
 
