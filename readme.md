@@ -22,7 +22,7 @@ Ensure you have npm installed.
 1. Clone the repository:
    ```sh
    git clone https://github.com/UtsavUpadhyay08/Backend.git
-   cd my-express-typescript-app
+   cd Backend
    ```
 2. Install dependencies:
    ```sh
