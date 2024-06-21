@@ -1,9 +1,16 @@
 [
   {
-    "name": "PQRST",
-    "email": "XYZ@gmail.com",
-    "phone": "0000000000",
-    "github_link": "xyz.github.com",
-    "stopwatch_time": "789"
+    "name": "ABC",
+    "email": "abc@gmail.com",
+    "phone": "1234512345",
+    "github_link": "abc.github.com",
+    "stopwatch_time": "00:00:18"
+  },
+  {
+    "name": "User 1",
+    "email": "user1@gmail.com",
+    "phone": "9999999999",
+    "github_link": "user1.github.com",
+    "stopwatch_time": "00:00:02"
   }
 ]

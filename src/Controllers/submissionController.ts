@@ -8,6 +8,7 @@ export const ping = (req: Request, res: Response) => {
 
 export const submit = (req: Request, res: Response) => {
     const { name, email, phone, github_link, stopwatch_time } = req.body;
+    // console.log(req.body);
     if (!name || !email || !phone || !github_link || !stopwatch_time) {
         return res.status(400).json({ error: 'Missing required fields' });
     }
@@ -46,14 +47,12 @@ export const edit = (req: Request, res: Response)=>{
         let submissions = readDatabase();
         let submissionFound = false;
         submissions = submissions.map((submission) => {
-            // console.log(submission.email,email);
             if ( submission.email === email ) {
                 submissionFound = true;
                 for( let o in submission ){
                     if( obj[o] ) submission[o] = obj[o];
                 }
             }
-            // console.log(submission);
             return submission;
         });
         if (!submissionFound) {
@@ -91,5 +90,5 @@ export const search = (req: Request, res: Response) => {
     if (submissions.length === 0) {
         return res.status(404).json({ error: 'No submissions found for the provided email' });
     }
-    res.json(submissions);
+    res.json(submissions[0]);
 };
